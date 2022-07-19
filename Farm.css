@@ -1,0 +1,31 @@
+.nav li{float: left;
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+    text-decoration: none;
+
+    
+}
+li a{
+    color: aliceblue;
+    text-decoration: none;
+    color:black;
+    margin: 45px;
+    
+}
+.nav ul{overflow: auto;}
+.nav  a:hover{
+    background-color: rgba(4, 71, 15, 0.952);
+}
+.form{margin: auto;
+    color: #101111;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    border-radius: 6px 90px 6px 90px;
+    background-color: transparent;
+    background: linear-gradient(rgba(201, 194, 218, 0.459) , rgba(189, 181, 211, 0.5),rgba(222, 221, 231, 0.836) );
+    text-decoration: none;
+
+}

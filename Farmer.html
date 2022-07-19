@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer</title>
+    <link rel="stylesheet" href="Farm.css">
+<style>
+    body{
+    background: url('fr.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-wrap: wrap;
+        /* background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Feconomictimes.indiatimes.com%2Fnews%2Feconomy%2Fpolicy%2Fgovt-forms-society-to-run-centre-funded-farmer-schemes%2Farticleshow%2F73323101.cms&psig=AOvVaw1JL5sI7xaBPQHtHDiBCKVt&ust=1626104036287000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMD1_-6r2_ECFQAAAAAdAAAAABAE'); */
+    }
+</style>
+</head>
+
+<body>
+    
+    <header>
+        <div class="nav">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </div> 
+    </header>
+    
+    <div class="form">
+    <form action="fill "><b><i>Fill Your Information</i></b>
+        <br> <br>
+       <b> Name:</b> <input type="text"  id="name" value="Name"  placeholder = "Enter Full Name", required><br><br>
+        
+       <b> Email:</b> <input type="email"  id="email" value="email" placeholder= "Enter Your email"autofocus><br><br>
+       <b> password:</b> <input type="password" name="password" id="password" placeholder="enter your password"><br><br>
+        <b>Address:</b>
+
+         <textarea rows="2" cols="29"></textarea><br><br>
+        
+         <b> number:</b> <input type="number" name="number" id="number" placeholder="0123-456-789"><br><br>
+        <b>Birthday</b>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        
+        <b>Gender</b>
+        
+        
+        <input type="radio" name="male" id="gender">male
+        
+        <input type="radio" id="gender" name="female"required>female
+        <input type="radio" name="other" id="gender">other<br><br>
+        <b>Upload Your  Adharcard Photo:</b><input type="file" name="filr" id="file"><br><br>
+        <textarea name="text" id="text" cols="30" rows="10">write here.. what is your problem.</textarea><br><br>
+        <input type="button" value="Submit">
+        <input type="button" value="Reset">
+
+    </form>
+</div>
+</body>
+</html>
